@@ -1,0 +1,25 @@
+---
+title: "cf_factor_replicate_data"
+output: html_document
+date: "2026-01-02"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(czfactor)
+library(ggplot2)
+library(gridExtra)
+library(future.apply)
+data("factor12")
+datdf = factor12
+```
+
+
+```{r}
+write.csv(datdf, "asset_pricing_data.csv", row.names = FALSE)
+```
+

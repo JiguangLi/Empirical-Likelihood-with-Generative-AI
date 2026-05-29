@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: EL
+Version: 0.0.0a0
+Summary: Bayesian Empirical Likelihood with GenAI
+Author-email: jiguang_li <jiguang@chicagobooth.edu>
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# Bayesian Empirical Likelihood with Gen AI
+

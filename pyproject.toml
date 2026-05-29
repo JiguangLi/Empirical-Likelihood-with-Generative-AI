@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "EL"
+version = "0.0.0a0"
+description = "Bayesian Empirical Likelihood with GenAI"
+readme = "README.md"
+authors = [{name = "jiguang_li", email = "jiguang@chicagobooth.edu"}]
+requires-python = ">=3.10"
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Intended Audience :: Science/Research",
+  "License :: Other/Proprietary License",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+]
+dependencies = [
+  "numpy",
+  "pandas",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
